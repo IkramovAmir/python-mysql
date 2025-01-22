@@ -10,3 +10,7 @@ connection = mysql.connector.connect(
 
 if connection.is_connected():
     print("mysql ga muvaffaqiyatli ulandik.")
+
+cursor = connection.cursor()
+
+cursor.execute("create ")
